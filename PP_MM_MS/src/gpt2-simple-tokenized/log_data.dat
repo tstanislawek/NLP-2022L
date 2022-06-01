@@ -1,0 +1,2291 @@
+Testing saving output...
+Loading checkpoint checkpoint/disco_polo_gen_gpt2_validation/model-520
+Loading dataset...
+dataset has 3092002 tokens
+Training...
+Saving checkpoint/disco_polo_gen_gpt2_validation/model-520
+[530 | 109.08] loss=1.76 avg=1.76
+[540 | 210.66] loss=1.82 avg=1.79
+[550 | 312.46] loss=2.59 avg=2.06
+Saving checkpoint/disco_polo_gen_gpt2_validation/model-550
+Loading checkpoint checkpoint/disco_polo_gen_gpt2_validation/model-602
+Loading dataset...
+dataset has 3092002 tokens
+Training...
+Saving checkpoint/disco_polo_gen_gpt2_validation/model-602
+[610 | 88.86] loss=1.94 avg=1.94
+[620 | 194.04] loss=1.20 avg=1.57
+[630 | 298.44] loss=1.93 avg=1.69
+[640 | 401.70] loss=2.05 avg=1.78
+[650 | 506.31] loss=1.81 avg=1.79
+[660 | 610.43] loss=1.89 avg=1.80
+[670 | 714.57] loss=1.63 avg=1.78
+[680 | 818.85] loss=1.53 avg=1.75
+[690 | 923.78] loss=1.76 avg=1.75
+[700 | 1028.58] loss=2.08 avg=1.78
+[710 | 1133.68] loss=1.43 avg=1.75
+[720 | 1237.49] loss=1.98 avg=1.77
+[730 | 1342.31] loss=1.67 avg=1.76
+[740 | 1447.08] loss=1.65 avg=1.75
+[750 | 1551.61] loss=1.68 avg=1.75
+[760 | 1654.79] loss=1.58 avg=1.74
+[770 | 1760.90] loss=1.62 avg=1.73
+[780 | 1865.49] loss=2.18 avg=1.76
+[790 | 1969.30] loss=2.43 avg=1.79
+[800 | 2072.90] loss=1.79 avg=1.79
+======== SAMPLE 1 ========
+asi złotańczy się krew błyszysz mnie jak ucieć.
+O nie znaść być, nie tak,
+Kiedy masz jeszcze dziś, mam zostaną,
+Moć zawsze słowo się, że
+O jesteś najpiękniejsza szczęścia,
+O jesteś młodki w górze złoty się.
+Przez cały świata źboda oczu dni,
+Po biekawie już, wiem te górze, nie dna. 
+
+<RBEG>Ref.:
+Kiedy z nami moją szybcie trwa i wspólne, lecz na śniadny
+Kiedy z nami mamy uśmiech się i leczy się,
+Że wszystkie, że tak ogień, świata
+Czychszczą rybaczą się,
+Ja śpiewam sił, tak nie ma nie ma
+Że jesteś młodki, że
+Może moja, wstyd
+Umiu dziewczyny dwa, kiedy świeci
+Jesteś się tak, że
+Nie zaczyć zawsze słowo i złapie na,
+Uczowny, że jestem, źzli<REND><REND>.<EOST>x<|endoftext|>
+<|startoftext|>1. Gdy chcę być zamieszki gra znam, gdy przez pomieszkam są
+Żdasz słodkich łatwa nas na wstyd chce
+Zaświąc do mej żądzie uciec nie ma i zaświć się żawet
+Chcę być z nie bądż wierzą i szczęści w oknich stu
+Słodyczka złych uczucam się, to znam i zdarzyło
+Zamykamy się na to przytul na to pozwam w ramiona
+Chcę być nam się jak nieważne dzisiaj w oczach już
+Czych wszystko to ją o tym sama do mnie puchajmy w sercu dni
+Niech ciemny mi ktoś moczy nas mi daje dzisiaj
+Kiedy mi być są jój żebył szuka o Tobie to już
+Chcę być co to wie na całoń śpiewane swoje i że
+Więc na tylko się o tym puchajmy pomyli w sercu dzisiaj
+To miłość zagraję Cię dzisiaj, przywiat jakiś Śmierki złamiść Cieć
+<EOST>
+2. Kiedy do nieba właście dni, zabrało się żeje źknie
+Co gdybym mamy mi zwarił już, wciąż uwietlować dlaczego się wciąż  gdybym nie
+Kładam co przy tulić tak nie mów się żyć się już wcale  kładam źnić nam
+<EOST>
+<RBEG>Ref.:
+Niech noc i wszystko ktoś
+Chwilę złotyczasz łatwa nas, tak nie żyć k
+
+Saving checkpoint/disco_polo_gen_gpt2_validation/model-802
+Graph execution error:
+
+Detected at node 'model_7/Gather_1' defined at (most recent call last):
+    File "/opt/conda/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+      "__main__", mod_spec)
+    File "/opt/conda/lib/python3.7/runpy.py", line 85, in _run_code
+      exec(code, run_globals)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py", line 16, in <module>
+      app.launch_new_instance()
+    File "/opt/conda/lib/python3.7/site-packages/traitlets/config/application.py", line 846, in launch_instance
+      app.start()
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 677, in start
+      self.io_loop.start()
+    File "/opt/conda/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 199, in start
+      self.asyncio_loop.run_forever()
+    File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 541, in run_forever
+      self._run_once()
+    File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 1786, in _run_once
+      handle._run()
+    File "/opt/conda/lib/python3.7/asyncio/events.py", line 88, in _run
+      self._context.run(self._callback, *self._args)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 471, in dispatch_queue
+      await self.process_one()
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 460, in process_one
+      await dispatch(*args)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 367, in dispatch_shell
+      await result
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 662, in execute_request
+      reply_content = await reply_content
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 360, in do_execute
+      res = shell.run_cell(code, store_history=store_history, silent=silent)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 532, in run_cell
+      return super().run_cell(*args, **kwargs)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2958, in run_cell
+      raw_cell, store_history, silent, shell_futures)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3003, in _run_cell
+      return runner(coro)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 78, in _pseudo_sync_runner
+      coro.send(None)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3229, in run_cell_async
+      interactivity=interactivity, compiler=compiler, result=result)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3444, in run_ast_nodes
+      if (await self.run_code(code, result,  async_=asy)):
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3524, in run_code
+      exec(code_obj, self.user_global_ns, self.user_ns)
+    File "/tmp/ipykernel_15971/2602449616.py", line 45, in <module>
+      continuation=continuation)
+    File "/tmp/ipykernel_15971/1512671081.py", line 121, in get_perplexity
+      logits = get_logits(sess, run_name, checkpoint_dir, model_name, model_dir, full_sentence, all=True)
+    File "/tmp/ipykernel_15971/1512671081.py", line 58, in get_logits
+      output = step(hparams, context)
+    File "/tmp/ipykernel_15971/1512671081.py", line 47, in step
+      past=past, reuse=tf.compat.v1.AUTO_REUSE)
+    File "/opt/conda/lib/python3.7/site-packages/gpt_2_simple/src/model.py", line 193, in model
+      h = tf.gather(wte, X) + tf.gather(wpe, positions_for(X, past_length))
+Node: 'model_7/Gather_1'
+indices[0,1080] = 1080 is not in [0, 1024)
+	 [[{{node model_7/Gather_1}}]]
+
+Original stack trace for 'model_7/Gather_1':
+  File "/opt/conda/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/opt/conda/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/opt/conda/lib/python3.7/site-packages/traitlets/config/application.py", line 846, in launch_instance
+    app.start()
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 677, in start
+    self.io_loop.start()
+  File "/opt/conda/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 541, in run_forever
+    self._run_once()
+  File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 1786, in _run_once
+    handle._run()
+  File "/opt/conda/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 471, in dispatch_queue
+    await self.process_one()
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 460, in process_one
+    await dispatch(*args)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 367, in dispatch_shell
+    await result
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 662, in execute_request
+    reply_content = await reply_content
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 360, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 532, in run_cell
+    return super().run_cell(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2958, in run_cell
+    raw_cell, store_history, silent, shell_futures)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3003, in _run_cell
+    return runner(coro)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 78, in _pseudo_sync_runner
+    coro.send(None)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3229, in run_cell_async
+    interactivity=interactivity, compiler=compiler, result=result)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3444, in run_ast_nodes
+    if (await self.run_code(code, result,  async_=asy)):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3524, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "/tmp/ipykernel_15971/2602449616.py", line 45, in <module>
+    continuation=continuation)
+  File "/tmp/ipykernel_15971/1512671081.py", line 121, in get_perplexity
+    logits = get_logits(sess, run_name, checkpoint_dir, model_name, model_dir, full_sentence, all=True)
+  File "/tmp/ipykernel_15971/1512671081.py", line 58, in get_logits
+    output = step(hparams, context)
+  File "/tmp/ipykernel_15971/1512671081.py", line 47, in step
+    past=past, reuse=tf.compat.v1.AUTO_REUSE)
+  File "/opt/conda/lib/python3.7/site-packages/gpt_2_simple/src/model.py", line 193, in model
+    h = tf.gather(wte, X) + tf.gather(wpe, positions_for(X, past_length))
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 1082, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 5244, in gather_v2
+    batch_dims=batch_dims)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 1082, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/deprecation.py", line 548, in new_func
+    return func(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 5225, in gather
+    return params.sparse_read(indices, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py", line 759, in sparse_read
+    self.handle, indices, dtype=self._dtype, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/gen_resource_variable_ops.py", line 578, in resource_gather
+    validate_indices=validate_indices, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py", line 742, in _apply_op_helper
+    attrs=attr_protos, op_def=op_def)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 3784, in _create_op_internal
+    op_def=op_def)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 2175, in __init__
+    self._traceback = tf_stack.extract_stack_for_node(self._c_op)
+
+Graph execution error:
+
+Detected at node 'model_123/Gather_1' defined at (most recent call last):
+    File "/opt/conda/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+      "__main__", mod_spec)
+    File "/opt/conda/lib/python3.7/runpy.py", line 85, in _run_code
+      exec(code, run_globals)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py", line 16, in <module>
+      app.launch_new_instance()
+    File "/opt/conda/lib/python3.7/site-packages/traitlets/config/application.py", line 846, in launch_instance
+      app.start()
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 677, in start
+      self.io_loop.start()
+    File "/opt/conda/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 199, in start
+      self.asyncio_loop.run_forever()
+    File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 541, in run_forever
+      self._run_once()
+    File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 1786, in _run_once
+      handle._run()
+    File "/opt/conda/lib/python3.7/asyncio/events.py", line 88, in _run
+      self._context.run(self._callback, *self._args)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 471, in dispatch_queue
+      await self.process_one()
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 460, in process_one
+      await dispatch(*args)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 367, in dispatch_shell
+      await result
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 662, in execute_request
+      reply_content = await reply_content
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 360, in do_execute
+      res = shell.run_cell(code, store_history=store_history, silent=silent)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 532, in run_cell
+      return super().run_cell(*args, **kwargs)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2958, in run_cell
+      raw_cell, store_history, silent, shell_futures)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3003, in _run_cell
+      return runner(coro)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 78, in _pseudo_sync_runner
+      coro.send(None)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3229, in run_cell_async
+      interactivity=interactivity, compiler=compiler, result=result)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3444, in run_ast_nodes
+      if (await self.run_code(code, result,  async_=asy)):
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3524, in run_code
+      exec(code_obj, self.user_global_ns, self.user_ns)
+    File "/tmp/ipykernel_15971/2602449616.py", line 45, in <module>
+      continuation=continuation)
+    File "/tmp/ipykernel_15971/1512671081.py", line 121, in get_perplexity
+      logits = get_logits(sess, run_name, checkpoint_dir, model_name, model_dir, full_sentence, all=True)
+    File "/tmp/ipykernel_15971/1512671081.py", line 58, in get_logits
+      output = step(hparams, context)
+    File "/tmp/ipykernel_15971/1512671081.py", line 47, in step
+      past=past, reuse=tf.compat.v1.AUTO_REUSE)
+    File "/opt/conda/lib/python3.7/site-packages/gpt_2_simple/src/model.py", line 193, in model
+      h = tf.gather(wte, X) + tf.gather(wpe, positions_for(X, past_length))
+Node: 'model_123/Gather_1'
+indices[0,1024] = 1024 is not in [0, 1024)
+	 [[{{node model_123/Gather_1}}]]
+
+Original stack trace for 'model_123/Gather_1':
+  File "/opt/conda/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/opt/conda/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/opt/conda/lib/python3.7/site-packages/traitlets/config/application.py", line 846, in launch_instance
+    app.start()
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 677, in start
+    self.io_loop.start()
+  File "/opt/conda/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 541, in run_forever
+    self._run_once()
+  File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 1786, in _run_once
+    handle._run()
+  File "/opt/conda/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 471, in dispatch_queue
+    await self.process_one()
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 460, in process_one
+    await dispatch(*args)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 367, in dispatch_shell
+    await result
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 662, in execute_request
+    reply_content = await reply_content
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 360, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 532, in run_cell
+    return super().run_cell(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2958, in run_cell
+    raw_cell, store_history, silent, shell_futures)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3003, in _run_cell
+    return runner(coro)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 78, in _pseudo_sync_runner
+    coro.send(None)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3229, in run_cell_async
+    interactivity=interactivity, compiler=compiler, result=result)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3444, in run_ast_nodes
+    if (await self.run_code(code, result,  async_=asy)):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3524, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "/tmp/ipykernel_15971/2602449616.py", line 45, in <module>
+    continuation=continuation)
+  File "/tmp/ipykernel_15971/1512671081.py", line 121, in get_perplexity
+    logits = get_logits(sess, run_name, checkpoint_dir, model_name, model_dir, full_sentence, all=True)
+  File "/tmp/ipykernel_15971/1512671081.py", line 58, in get_logits
+    output = step(hparams, context)
+  File "/tmp/ipykernel_15971/1512671081.py", line 47, in step
+    past=past, reuse=tf.compat.v1.AUTO_REUSE)
+  File "/opt/conda/lib/python3.7/site-packages/gpt_2_simple/src/model.py", line 193, in model
+    h = tf.gather(wte, X) + tf.gather(wpe, positions_for(X, past_length))
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 1082, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 5244, in gather_v2
+    batch_dims=batch_dims)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 1082, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/deprecation.py", line 548, in new_func
+    return func(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 5225, in gather
+    return params.sparse_read(indices, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py", line 759, in sparse_read
+    self.handle, indices, dtype=self._dtype, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/gen_resource_variable_ops.py", line 578, in resource_gather
+    validate_indices=validate_indices, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py", line 742, in _apply_op_helper
+    attrs=attr_protos, op_def=op_def)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 3784, in _create_op_internal
+    op_def=op_def)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 2175, in __init__
+    self._traceback = tf_stack.extract_stack_for_node(self._c_op)
+
+Graph execution error:
+
+Detected at node 'model_181/Gather_1' defined at (most recent call last):
+    File "/opt/conda/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+      "__main__", mod_spec)
+    File "/opt/conda/lib/python3.7/runpy.py", line 85, in _run_code
+      exec(code, run_globals)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py", line 16, in <module>
+      app.launch_new_instance()
+    File "/opt/conda/lib/python3.7/site-packages/traitlets/config/application.py", line 846, in launch_instance
+      app.start()
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 677, in start
+      self.io_loop.start()
+    File "/opt/conda/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 199, in start
+      self.asyncio_loop.run_forever()
+    File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 541, in run_forever
+      self._run_once()
+    File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 1786, in _run_once
+      handle._run()
+    File "/opt/conda/lib/python3.7/asyncio/events.py", line 88, in _run
+      self._context.run(self._callback, *self._args)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 471, in dispatch_queue
+      await self.process_one()
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 460, in process_one
+      await dispatch(*args)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 367, in dispatch_shell
+      await result
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 662, in execute_request
+      reply_content = await reply_content
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 360, in do_execute
+      res = shell.run_cell(code, store_history=store_history, silent=silent)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 532, in run_cell
+      return super().run_cell(*args, **kwargs)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2958, in run_cell
+      raw_cell, store_history, silent, shell_futures)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3003, in _run_cell
+      return runner(coro)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 78, in _pseudo_sync_runner
+      coro.send(None)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3229, in run_cell_async
+      interactivity=interactivity, compiler=compiler, result=result)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3444, in run_ast_nodes
+      if (await self.run_code(code, result,  async_=asy)):
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3524, in run_code
+      exec(code_obj, self.user_global_ns, self.user_ns)
+    File "/tmp/ipykernel_15971/2602449616.py", line 45, in <module>
+      continuation=continuation)
+    File "/tmp/ipykernel_15971/1512671081.py", line 121, in get_perplexity
+      logits = get_logits(sess, run_name, checkpoint_dir, model_name, model_dir, full_sentence, all=True)
+    File "/tmp/ipykernel_15971/1512671081.py", line 58, in get_logits
+      output = step(hparams, context)
+    File "/tmp/ipykernel_15971/1512671081.py", line 47, in step
+      past=past, reuse=tf.compat.v1.AUTO_REUSE)
+    File "/opt/conda/lib/python3.7/site-packages/gpt_2_simple/src/model.py", line 193, in model
+      h = tf.gather(wte, X) + tf.gather(wpe, positions_for(X, past_length))
+Node: 'model_181/Gather_1'
+indices[0,1024] = 1024 is not in [0, 1024)
+	 [[{{node model_181/Gather_1}}]]
+
+Original stack trace for 'model_181/Gather_1':
+  File "/opt/conda/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/opt/conda/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/opt/conda/lib/python3.7/site-packages/traitlets/config/application.py", line 846, in launch_instance
+    app.start()
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 677, in start
+    self.io_loop.start()
+  File "/opt/conda/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 541, in run_forever
+    self._run_once()
+  File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 1786, in _run_once
+    handle._run()
+  File "/opt/conda/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 471, in dispatch_queue
+    await self.process_one()
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 460, in process_one
+    await dispatch(*args)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 367, in dispatch_shell
+    await result
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 662, in execute_request
+    reply_content = await reply_content
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 360, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 532, in run_cell
+    return super().run_cell(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2958, in run_cell
+    raw_cell, store_history, silent, shell_futures)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3003, in _run_cell
+    return runner(coro)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 78, in _pseudo_sync_runner
+    coro.send(None)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3229, in run_cell_async
+    interactivity=interactivity, compiler=compiler, result=result)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3444, in run_ast_nodes
+    if (await self.run_code(code, result,  async_=asy)):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3524, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "/tmp/ipykernel_15971/2602449616.py", line 45, in <module>
+    continuation=continuation)
+  File "/tmp/ipykernel_15971/1512671081.py", line 121, in get_perplexity
+    logits = get_logits(sess, run_name, checkpoint_dir, model_name, model_dir, full_sentence, all=True)
+  File "/tmp/ipykernel_15971/1512671081.py", line 58, in get_logits
+    output = step(hparams, context)
+  File "/tmp/ipykernel_15971/1512671081.py", line 47, in step
+    past=past, reuse=tf.compat.v1.AUTO_REUSE)
+  File "/opt/conda/lib/python3.7/site-packages/gpt_2_simple/src/model.py", line 193, in model
+    h = tf.gather(wte, X) + tf.gather(wpe, positions_for(X, past_length))
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 1082, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 5244, in gather_v2
+    batch_dims=batch_dims)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 1082, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/deprecation.py", line 548, in new_func
+    return func(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 5225, in gather
+    return params.sparse_read(indices, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py", line 759, in sparse_read
+    self.handle, indices, dtype=self._dtype, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/gen_resource_variable_ops.py", line 578, in resource_gather
+    validate_indices=validate_indices, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py", line 742, in _apply_op_helper
+    attrs=attr_protos, op_def=op_def)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 3784, in _create_op_internal
+    op_def=op_def)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 2175, in __init__
+    self._traceback = tf_stack.extract_stack_for_node(self._c_op)
+
+Graph execution error:
+
+Detected at node 'model_210/Gather_1' defined at (most recent call last):
+    File "/opt/conda/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+      "__main__", mod_spec)
+    File "/opt/conda/lib/python3.7/runpy.py", line 85, in _run_code
+      exec(code, run_globals)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py", line 16, in <module>
+      app.launch_new_instance()
+    File "/opt/conda/lib/python3.7/site-packages/traitlets/config/application.py", line 846, in launch_instance
+      app.start()
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 677, in start
+      self.io_loop.start()
+    File "/opt/conda/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 199, in start
+      self.asyncio_loop.run_forever()
+    File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 541, in run_forever
+      self._run_once()
+    File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 1786, in _run_once
+      handle._run()
+    File "/opt/conda/lib/python3.7/asyncio/events.py", line 88, in _run
+      self._context.run(self._callback, *self._args)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 471, in dispatch_queue
+      await self.process_one()
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 460, in process_one
+      await dispatch(*args)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 367, in dispatch_shell
+      await result
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 662, in execute_request
+      reply_content = await reply_content
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 360, in do_execute
+      res = shell.run_cell(code, store_history=store_history, silent=silent)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 532, in run_cell
+      return super().run_cell(*args, **kwargs)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2958, in run_cell
+      raw_cell, store_history, silent, shell_futures)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3003, in _run_cell
+      return runner(coro)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 78, in _pseudo_sync_runner
+      coro.send(None)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3229, in run_cell_async
+      interactivity=interactivity, compiler=compiler, result=result)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3444, in run_ast_nodes
+      if (await self.run_code(code, result,  async_=asy)):
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3524, in run_code
+      exec(code_obj, self.user_global_ns, self.user_ns)
+    File "/tmp/ipykernel_15971/2602449616.py", line 45, in <module>
+      continuation=continuation)
+    File "/tmp/ipykernel_15971/1512671081.py", line 121, in get_perplexity
+      logits = get_logits(sess, run_name, checkpoint_dir, model_name, model_dir, full_sentence, all=True)
+    File "/tmp/ipykernel_15971/1512671081.py", line 58, in get_logits
+      output = step(hparams, context)
+    File "/tmp/ipykernel_15971/1512671081.py", line 47, in step
+      past=past, reuse=tf.compat.v1.AUTO_REUSE)
+    File "/opt/conda/lib/python3.7/site-packages/gpt_2_simple/src/model.py", line 193, in model
+      h = tf.gather(wte, X) + tf.gather(wpe, positions_for(X, past_length))
+Node: 'model_210/Gather_1'
+indices[0,1080] = 1080 is not in [0, 1024)
+	 [[{{node model_210/Gather_1}}]]
+
+Original stack trace for 'model_210/Gather_1':
+  File "/opt/conda/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/opt/conda/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/opt/conda/lib/python3.7/site-packages/traitlets/config/application.py", line 846, in launch_instance
+    app.start()
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 677, in start
+    self.io_loop.start()
+  File "/opt/conda/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 541, in run_forever
+    self._run_once()
+  File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 1786, in _run_once
+    handle._run()
+  File "/opt/conda/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 471, in dispatch_queue
+    await self.process_one()
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 460, in process_one
+    await dispatch(*args)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 367, in dispatch_shell
+    await result
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 662, in execute_request
+    reply_content = await reply_content
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 360, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 532, in run_cell
+    return super().run_cell(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2958, in run_cell
+    raw_cell, store_history, silent, shell_futures)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3003, in _run_cell
+    return runner(coro)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 78, in _pseudo_sync_runner
+    coro.send(None)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3229, in run_cell_async
+    interactivity=interactivity, compiler=compiler, result=result)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3444, in run_ast_nodes
+    if (await self.run_code(code, result,  async_=asy)):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3524, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "/tmp/ipykernel_15971/2602449616.py", line 45, in <module>
+    continuation=continuation)
+  File "/tmp/ipykernel_15971/1512671081.py", line 121, in get_perplexity
+    logits = get_logits(sess, run_name, checkpoint_dir, model_name, model_dir, full_sentence, all=True)
+  File "/tmp/ipykernel_15971/1512671081.py", line 58, in get_logits
+    output = step(hparams, context)
+  File "/tmp/ipykernel_15971/1512671081.py", line 47, in step
+    past=past, reuse=tf.compat.v1.AUTO_REUSE)
+  File "/opt/conda/lib/python3.7/site-packages/gpt_2_simple/src/model.py", line 193, in model
+    h = tf.gather(wte, X) + tf.gather(wpe, positions_for(X, past_length))
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 1082, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 5244, in gather_v2
+    batch_dims=batch_dims)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 1082, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/deprecation.py", line 548, in new_func
+    return func(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 5225, in gather
+    return params.sparse_read(indices, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py", line 759, in sparse_read
+    self.handle, indices, dtype=self._dtype, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/gen_resource_variable_ops.py", line 578, in resource_gather
+    validate_indices=validate_indices, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py", line 742, in _apply_op_helper
+    attrs=attr_protos, op_def=op_def)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 3784, in _create_op_internal
+    op_def=op_def)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 2175, in __init__
+    self._traceback = tf_stack.extract_stack_for_node(self._c_op)
+
+Graph execution error:
+
+Detected at node 'model_213/Gather_1' defined at (most recent call last):
+    File "/opt/conda/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+      "__main__", mod_spec)
+    File "/opt/conda/lib/python3.7/runpy.py", line 85, in _run_code
+      exec(code, run_globals)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py", line 16, in <module>
+      app.launch_new_instance()
+    File "/opt/conda/lib/python3.7/site-packages/traitlets/config/application.py", line 846, in launch_instance
+      app.start()
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 677, in start
+      self.io_loop.start()
+    File "/opt/conda/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 199, in start
+      self.asyncio_loop.run_forever()
+    File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 541, in run_forever
+      self._run_once()
+    File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 1786, in _run_once
+      handle._run()
+    File "/opt/conda/lib/python3.7/asyncio/events.py", line 88, in _run
+      self._context.run(self._callback, *self._args)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 471, in dispatch_queue
+      await self.process_one()
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 460, in process_one
+      await dispatch(*args)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 367, in dispatch_shell
+      await result
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 662, in execute_request
+      reply_content = await reply_content
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 360, in do_execute
+      res = shell.run_cell(code, store_history=store_history, silent=silent)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 532, in run_cell
+      return super().run_cell(*args, **kwargs)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2958, in run_cell
+      raw_cell, store_history, silent, shell_futures)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3003, in _run_cell
+      return runner(coro)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 78, in _pseudo_sync_runner
+      coro.send(None)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3229, in run_cell_async
+      interactivity=interactivity, compiler=compiler, result=result)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3444, in run_ast_nodes
+      if (await self.run_code(code, result,  async_=asy)):
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3524, in run_code
+      exec(code_obj, self.user_global_ns, self.user_ns)
+    File "/tmp/ipykernel_15971/2602449616.py", line 45, in <module>
+      continuation=continuation)
+    File "/tmp/ipykernel_15971/1512671081.py", line 121, in get_perplexity
+      logits = get_logits(sess, run_name, checkpoint_dir, model_name, model_dir, full_sentence, all=True)
+    File "/tmp/ipykernel_15971/1512671081.py", line 58, in get_logits
+      output = step(hparams, context)
+    File "/tmp/ipykernel_15971/1512671081.py", line 47, in step
+      past=past, reuse=tf.compat.v1.AUTO_REUSE)
+    File "/opt/conda/lib/python3.7/site-packages/gpt_2_simple/src/model.py", line 193, in model
+      h = tf.gather(wte, X) + tf.gather(wpe, positions_for(X, past_length))
+Node: 'model_213/Gather_1'
+indices[0,1665] = 1665 is not in [0, 1024)
+	 [[{{node model_213/Gather_1}}]]
+
+Original stack trace for 'model_213/Gather_1':
+  File "/opt/conda/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/opt/conda/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/opt/conda/lib/python3.7/site-packages/traitlets/config/application.py", line 846, in launch_instance
+    app.start()
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 677, in start
+    self.io_loop.start()
+  File "/opt/conda/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 541, in run_forever
+    self._run_once()
+  File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 1786, in _run_once
+    handle._run()
+  File "/opt/conda/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 471, in dispatch_queue
+    await self.process_one()
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 460, in process_one
+    await dispatch(*args)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 367, in dispatch_shell
+    await result
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 662, in execute_request
+    reply_content = await reply_content
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 360, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 532, in run_cell
+    return super().run_cell(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2958, in run_cell
+    raw_cell, store_history, silent, shell_futures)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3003, in _run_cell
+    return runner(coro)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 78, in _pseudo_sync_runner
+    coro.send(None)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3229, in run_cell_async
+    interactivity=interactivity, compiler=compiler, result=result)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3444, in run_ast_nodes
+    if (await self.run_code(code, result,  async_=asy)):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3524, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "/tmp/ipykernel_15971/2602449616.py", line 45, in <module>
+    continuation=continuation)
+  File "/tmp/ipykernel_15971/1512671081.py", line 121, in get_perplexity
+    logits = get_logits(sess, run_name, checkpoint_dir, model_name, model_dir, full_sentence, all=True)
+  File "/tmp/ipykernel_15971/1512671081.py", line 58, in get_logits
+    output = step(hparams, context)
+  File "/tmp/ipykernel_15971/1512671081.py", line 47, in step
+    past=past, reuse=tf.compat.v1.AUTO_REUSE)
+  File "/opt/conda/lib/python3.7/site-packages/gpt_2_simple/src/model.py", line 193, in model
+    h = tf.gather(wte, X) + tf.gather(wpe, positions_for(X, past_length))
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 1082, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 5244, in gather_v2
+    batch_dims=batch_dims)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 1082, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/deprecation.py", line 548, in new_func
+    return func(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 5225, in gather
+    return params.sparse_read(indices, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py", line 759, in sparse_read
+    self.handle, indices, dtype=self._dtype, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/gen_resource_variable_ops.py", line 578, in resource_gather
+    validate_indices=validate_indices, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py", line 742, in _apply_op_helper
+    attrs=attr_protos, op_def=op_def)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 3784, in _create_op_internal
+    op_def=op_def)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 2175, in __init__
+    self._traceback = tf_stack.extract_stack_for_node(self._c_op)
+
+Graph execution error:
+
+Detected at node 'model_224/Gather_1' defined at (most recent call last):
+    File "/opt/conda/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+      "__main__", mod_spec)
+    File "/opt/conda/lib/python3.7/runpy.py", line 85, in _run_code
+      exec(code, run_globals)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py", line 16, in <module>
+      app.launch_new_instance()
+    File "/opt/conda/lib/python3.7/site-packages/traitlets/config/application.py", line 846, in launch_instance
+      app.start()
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 677, in start
+      self.io_loop.start()
+    File "/opt/conda/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 199, in start
+      self.asyncio_loop.run_forever()
+    File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 541, in run_forever
+      self._run_once()
+    File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 1786, in _run_once
+      handle._run()
+    File "/opt/conda/lib/python3.7/asyncio/events.py", line 88, in _run
+      self._context.run(self._callback, *self._args)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 471, in dispatch_queue
+      await self.process_one()
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 460, in process_one
+      await dispatch(*args)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 367, in dispatch_shell
+      await result
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 662, in execute_request
+      reply_content = await reply_content
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 360, in do_execute
+      res = shell.run_cell(code, store_history=store_history, silent=silent)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 532, in run_cell
+      return super().run_cell(*args, **kwargs)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2958, in run_cell
+      raw_cell, store_history, silent, shell_futures)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3003, in _run_cell
+      return runner(coro)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 78, in _pseudo_sync_runner
+      coro.send(None)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3229, in run_cell_async
+      interactivity=interactivity, compiler=compiler, result=result)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3444, in run_ast_nodes
+      if (await self.run_code(code, result,  async_=asy)):
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3524, in run_code
+      exec(code_obj, self.user_global_ns, self.user_ns)
+    File "/tmp/ipykernel_15971/2602449616.py", line 45, in <module>
+      continuation=continuation)
+    File "/tmp/ipykernel_15971/1512671081.py", line 121, in get_perplexity
+      logits = get_logits(sess, run_name, checkpoint_dir, model_name, model_dir, full_sentence, all=True)
+    File "/tmp/ipykernel_15971/1512671081.py", line 58, in get_logits
+      output = step(hparams, context)
+    File "/tmp/ipykernel_15971/1512671081.py", line 47, in step
+      past=past, reuse=tf.compat.v1.AUTO_REUSE)
+    File "/opt/conda/lib/python3.7/site-packages/gpt_2_simple/src/model.py", line 193, in model
+      h = tf.gather(wte, X) + tf.gather(wpe, positions_for(X, past_length))
+Node: 'model_224/Gather_1'
+indices[0,1665] = 1665 is not in [0, 1024)
+	 [[{{node model_224/Gather_1}}]]
+
+Original stack trace for 'model_224/Gather_1':
+  File "/opt/conda/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/opt/conda/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/opt/conda/lib/python3.7/site-packages/traitlets/config/application.py", line 846, in launch_instance
+    app.start()
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 677, in start
+    self.io_loop.start()
+  File "/opt/conda/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 541, in run_forever
+    self._run_once()
+  File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 1786, in _run_once
+    handle._run()
+  File "/opt/conda/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 471, in dispatch_queue
+    await self.process_one()
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 460, in process_one
+    await dispatch(*args)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 367, in dispatch_shell
+    await result
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 662, in execute_request
+    reply_content = await reply_content
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 360, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 532, in run_cell
+    return super().run_cell(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2958, in run_cell
+    raw_cell, store_history, silent, shell_futures)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3003, in _run_cell
+    return runner(coro)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 78, in _pseudo_sync_runner
+    coro.send(None)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3229, in run_cell_async
+    interactivity=interactivity, compiler=compiler, result=result)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3444, in run_ast_nodes
+    if (await self.run_code(code, result,  async_=asy)):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3524, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "/tmp/ipykernel_15971/2602449616.py", line 45, in <module>
+    continuation=continuation)
+  File "/tmp/ipykernel_15971/1512671081.py", line 121, in get_perplexity
+    logits = get_logits(sess, run_name, checkpoint_dir, model_name, model_dir, full_sentence, all=True)
+  File "/tmp/ipykernel_15971/1512671081.py", line 58, in get_logits
+    output = step(hparams, context)
+  File "/tmp/ipykernel_15971/1512671081.py", line 47, in step
+    past=past, reuse=tf.compat.v1.AUTO_REUSE)
+  File "/opt/conda/lib/python3.7/site-packages/gpt_2_simple/src/model.py", line 193, in model
+    h = tf.gather(wte, X) + tf.gather(wpe, positions_for(X, past_length))
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 1082, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 5244, in gather_v2
+    batch_dims=batch_dims)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 1082, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/deprecation.py", line 548, in new_func
+    return func(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 5225, in gather
+    return params.sparse_read(indices, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py", line 759, in sparse_read
+    self.handle, indices, dtype=self._dtype, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/gen_resource_variable_ops.py", line 578, in resource_gather
+    validate_indices=validate_indices, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py", line 742, in _apply_op_helper
+    attrs=attr_protos, op_def=op_def)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 3784, in _create_op_internal
+    op_def=op_def)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 2175, in __init__
+    self._traceback = tf_stack.extract_stack_for_node(self._c_op)
+Loading checkpoint models/gpt2_validation/124M/model.ckpt
+Loading dataset...
+dataset has 3092002 tokens
+Training...
+Saving checkpoint/disco_polo_gen_gpt2_validation/model-0
+[10 | 106.98] loss=2.29 avg=2.29
+[20 | 207.24] loss=2.88 avg=2.59
+[30 | 307.64] loss=2.25 avg=2.47
+[40 | 406.98] loss=2.52 avg=2.49
+[50 | 507.95] loss=2.22 avg=2.43
+[60 | 608.31] loss=2.32 avg=2.41
+[70 | 707.11] loss=2.71 avg=2.46
+[80 | 810.38] loss=2.23 avg=2.43
+[90 | 915.75] loss=2.96 avg=2.49
+[100 | 1016.00] loss=2.16 avg=2.45
+[110 | 1115.00] loss=2.35 avg=2.44
+[120 | 1214.99] loss=2.50 avg=2.45
+[130 | 1314.32] loss=2.66 avg=2.47
+[140 | 1413.03] loss=2.28 avg=2.45
+[150 | 1512.80] loss=1.87 avg=2.41
+[160 | 1611.68] loss=2.78 avg=2.43
+[170 | 1715.69] loss=1.95 avg=2.40
+[180 | 1815.22] loss=1.92 avg=2.37
+[190 | 1915.50] loss=2.29 avg=2.37
+[200 | 2014.17] loss=2.04 avg=2.35
+Saving checkpoint/disco_polo_gen_gpt2_validation/model-200
+Calculating perplexity...
+Graph execution error:
+
+Detected at node 'model_28/MatMul/ReadVariableOp' defined at (most recent call last):
+    File "/opt/conda/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+      "__main__", mod_spec)
+    File "/opt/conda/lib/python3.7/runpy.py", line 85, in _run_code
+      exec(code, run_globals)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py", line 16, in <module>
+      app.launch_new_instance()
+    File "/opt/conda/lib/python3.7/site-packages/traitlets/config/application.py", line 846, in launch_instance
+      app.start()
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 677, in start
+      self.io_loop.start()
+    File "/opt/conda/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 199, in start
+      self.asyncio_loop.run_forever()
+    File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 541, in run_forever
+      self._run_once()
+    File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 1786, in _run_once
+      handle._run()
+    File "/opt/conda/lib/python3.7/asyncio/events.py", line 88, in _run
+      self._context.run(self._callback, *self._args)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 471, in dispatch_queue
+      await self.process_one()
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 460, in process_one
+      await dispatch(*args)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 367, in dispatch_shell
+      await result
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 662, in execute_request
+      reply_content = await reply_content
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 360, in do_execute
+      res = shell.run_cell(code, store_history=store_history, silent=silent)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 532, in run_cell
+      return super().run_cell(*args, **kwargs)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2958, in run_cell
+      raw_cell, store_history, silent, shell_futures)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3003, in _run_cell
+      return runner(coro)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 78, in _pseudo_sync_runner
+      coro.send(None)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3229, in run_cell_async
+      interactivity=interactivity, compiler=compiler, result=result)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3444, in run_ast_nodes
+      if (await self.run_code(code, result,  async_=asy)):
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3524, in run_code
+      exec(code_obj, self.user_global_ns, self.user_ns)
+    File "/tmp/ipykernel_4095/462499367.py", line 53, in <module>
+      continuation=continuation)
+    File "/tmp/ipykernel_4095/3665137486.py", line 124, in get_perplexity
+      logits = get_logits(sess, run_name, checkpoint_dir, model_name, model_dir, full_sentence, all=True)
+    File "/tmp/ipykernel_4095/3665137486.py", line 58, in get_logits
+      output = step(hparams, context)
+    File "/tmp/ipykernel_4095/3665137486.py", line 47, in step
+      past=past, reuse=tf.compat.v1.AUTO_REUSE)
+    File "/opt/conda/lib/python3.7/site-packages/gpt_2_simple/src/model.py", line 218, in model
+      logits = tf.matmul(h_flat, wte, transpose_b=True)
+Node: 'model_28/MatMul/ReadVariableOp'
+OOM when allocating tensor with shape[50257,768] and type float on /job:localhost/replica:0/task:0/device:CPU:0 by allocator cpu
+	 [[{{node model_28/MatMul/ReadVariableOp}}]]
+Hint: If you want to see a list of allocated tensors when OOM happens, add report_tensor_allocations_upon_oom to RunOptions for current allocation info. This isn't available when running in Eager mode.
+
+Original stack trace for 'model_28/MatMul/ReadVariableOp':
+  File "/opt/conda/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/opt/conda/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/opt/conda/lib/python3.7/site-packages/traitlets/config/application.py", line 846, in launch_instance
+    app.start()
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 677, in start
+    self.io_loop.start()
+  File "/opt/conda/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 541, in run_forever
+    self._run_once()
+  File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 1786, in _run_once
+    handle._run()
+  File "/opt/conda/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 471, in dispatch_queue
+    await self.process_one()
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 460, in process_one
+    await dispatch(*args)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 367, in dispatch_shell
+    await result
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 662, in execute_request
+    reply_content = await reply_content
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 360, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 532, in run_cell
+    return super().run_cell(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2958, in run_cell
+    raw_cell, store_history, silent, shell_futures)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3003, in _run_cell
+    return runner(coro)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 78, in _pseudo_sync_runner
+    coro.send(None)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3229, in run_cell_async
+    interactivity=interactivity, compiler=compiler, result=result)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3444, in run_ast_nodes
+    if (await self.run_code(code, result,  async_=asy)):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3524, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "/tmp/ipykernel_4095/462499367.py", line 53, in <module>
+    continuation=continuation)
+  File "/tmp/ipykernel_4095/3665137486.py", line 124, in get_perplexity
+    logits = get_logits(sess, run_name, checkpoint_dir, model_name, model_dir, full_sentence, all=True)
+  File "/tmp/ipykernel_4095/3665137486.py", line 58, in get_logits
+    output = step(hparams, context)
+  File "/tmp/ipykernel_4095/3665137486.py", line 47, in step
+    past=past, reuse=tf.compat.v1.AUTO_REUSE)
+  File "/opt/conda/lib/python3.7/site-packages/gpt_2_simple/src/model.py", line 218, in model
+    logits = tf.matmul(h_flat, wte, transpose_b=True)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 1082, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py", line 3635, in matmul
+    b = ops.convert_to_tensor(b, dtype_hint=a.dtype.base_dtype, name="b")
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/profiler/trace.py", line 183, in wrapped
+    return func(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 1683, in convert_to_tensor
+    value, dtype=preferred_dtype, name=name, as_ref=as_ref)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py", line 2098, in _dense_var_to_tensor
+    return var._dense_var_to_tensor(dtype=dtype, name=name, as_ref=as_ref)  # pylint: disable=protected-access
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py", line 1476, in _dense_var_to_tensor
+    return self.value()
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py", line 619, in value
+    return self._read_variable_op()
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py", line 728, in _read_variable_op
+    result = read_and_set_handle()
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py", line 719, in read_and_set_handle
+    self.handle, self._dtype)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/gen_resource_variable_ops.py", line 494, in read_variable_op
+    "ReadVariableOp", resource=resource, dtype=dtype, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py", line 742, in _apply_op_helper
+    attrs=attr_protos, op_def=op_def)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 3784, in _create_op_internal
+    op_def=op_def)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 2175, in __init__
+    self._traceback = tf_stack.extract_stack_for_node(self._c_op)
+
+Current perplexity = 3.1020966092793647
+Loading checkpoint checkpoint/disco_polo_gen_gpt2_validation/model-200
+Loading dataset...
+dataset has 3092002 tokens
+Training...
+Saving checkpoint/disco_polo_gen_gpt2_validation/model-200
+======== SAMPLE 1 ========
+est dziś nich jeden co i jeden,
+I teście mi
+<EOST>
+Owierne dziś do dziś co co i jeden,
+Ciągle mój dzużnia co i jeden,
+I to wsłodnie szczę życie,
+I to oczy czasem co miłości,
+W może dosta razem co co odwierne,
+My wszyscy czem, ich małe w zrzemie,
+Po i mnie małe wierne wijm co tyć,
+<EOST>
+Owierne dziś do dziś co uwierne co nie,
+I co się z nów miłe uwierne mi miłe się wciąż co wiernie ciągle dziś oczy bąca poca,
+
+<EOST>
+Oj życze mieć byę tylko, będzie mnie tak się czy,
+Może ma jest, może ma jest są zwierne Cię świat,
+Bo co złąż się šleź dziś mnie, co noc pótka,
+Po do mnie małe wierce wie, w jak niesinny mam wspomnij się dzień,
+I Żezna będzie się, co jak tylko, mnie źli się to jak mnie,
+Co o Tobie jestem wie, rana do mnie, jeszcze nie wiem,
+I wszystkie do mnie, wszystkie do mnie, co jest jestem,
+Gdy co wiedzielki z półmy żółnej, co o Tobie,
+Czy razem miła tak się, jak niesinny mi miła ma tylko,
+<EOST>
+I nie błki z białość, zapomnież przyjdzieł,
+Bo się na coś mi, co chcesz żadny przyjdzieł,
+I miła tylko mnie mnie świat,
+Bo świasz wybawie Cię wciąż ma razem,
+I miła tylko mnie tak pięknie dzień,
+I wszystko świoł, dzień byłbym i być<EOST>p<|endoftext|>
+<|startoftext|>Takie będzie kiedyś władą nie wszyswód kocham żadna z nie wszyswód sam                   <EOST>
+<EOST>
+Kieje będzi nie wiem już dzień nas dzień. Nie wiem jest od mnie wiem, nie wiem już dzień dzień. Nie wiem już wiem krą właś, wierŻ to nie, powiedzym miła,
+Lata w moge wiem.
+Nie wielko bieskie wszystkie, nie wiem   wiem już.
+Nie będzie wciąż ogień się, ktoś może już, oczy może juś wiem                     <EOST>
+<EOST>
+Wiem jest, i to dzień dzień  
+<EOST>
+Nie wiem już wiem co znąłem szkłód. nie wiem już w
+
+[210 | 197.28] loss=1.90 avg=1.90
+[220 | 297.27] loss=1.78 avg=1.84
+[230 | 395.88] loss=1.85 avg=1.84
+[240 | 495.71] loss=2.02 avg=1.89
+[250 | 595.55] loss=1.44 avg=1.80
+[260 | 693.64] loss=2.31 avg=1.88
+[270 | 793.17] loss=2.01 avg=1.90
+[280 | 892.76] loss=2.14 avg=1.93
+[290 | 991.95] loss=2.18 avg=1.96
+[300 | 1091.23] loss=2.39 avg=2.01
+[310 | 1190.76] loss=2.05 avg=2.01
+[320 | 1288.94] loss=1.79 avg=1.99
+[330 | 1388.19] loss=1.91 avg=1.98
+[340 | 1487.84] loss=1.42 avg=1.94
+[350 | 1586.28] loss=2.49 avg=1.98
+[360 | 1686.01] loss=2.27 avg=2.00
+[370 | 1785.67] loss=1.83 avg=1.99
+[380 | 1884.09] loss=1.95 avg=1.99
+[390 | 1983.83] loss=2.49 avg=2.02
+[400 | 2083.28] loss=2.27 avg=2.03
+Saving checkpoint/disco_polo_gen_gpt2_validation/model-400
+Calculating perplexity...
+Graph execution error:
+
+Detected at node 'model_10/Gather_1' defined at (most recent call last):
+    File "/opt/conda/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+      "__main__", mod_spec)
+    File "/opt/conda/lib/python3.7/runpy.py", line 85, in _run_code
+      exec(code, run_globals)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py", line 16, in <module>
+      app.launch_new_instance()
+    File "/opt/conda/lib/python3.7/site-packages/traitlets/config/application.py", line 846, in launch_instance
+      app.start()
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 677, in start
+      self.io_loop.start()
+    File "/opt/conda/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 199, in start
+      self.asyncio_loop.run_forever()
+    File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 541, in run_forever
+      self._run_once()
+    File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 1786, in _run_once
+      handle._run()
+    File "/opt/conda/lib/python3.7/asyncio/events.py", line 88, in _run
+      self._context.run(self._callback, *self._args)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 471, in dispatch_queue
+      await self.process_one()
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 460, in process_one
+      await dispatch(*args)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 367, in dispatch_shell
+      await result
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 662, in execute_request
+      reply_content = await reply_content
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 360, in do_execute
+      res = shell.run_cell(code, store_history=store_history, silent=silent)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 532, in run_cell
+      return super().run_cell(*args, **kwargs)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2958, in run_cell
+      raw_cell, store_history, silent, shell_futures)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3003, in _run_cell
+      return runner(coro)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 78, in _pseudo_sync_runner
+      coro.send(None)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3229, in run_cell_async
+      interactivity=interactivity, compiler=compiler, result=result)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3444, in run_ast_nodes
+      if (await self.run_code(code, result,  async_=asy)):
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3524, in run_code
+      exec(code_obj, self.user_global_ns, self.user_ns)
+    File "/tmp/ipykernel_4095/462499367.py", line 53, in <module>
+      continuation=continuation)
+    File "/tmp/ipykernel_4095/3665137486.py", line 124, in get_perplexity
+      logits = get_logits(sess, run_name, checkpoint_dir, model_name, model_dir, full_sentence, all=True)
+    File "/tmp/ipykernel_4095/3665137486.py", line 58, in get_logits
+      output = step(hparams, context)
+    File "/tmp/ipykernel_4095/3665137486.py", line 47, in step
+      past=past, reuse=tf.compat.v1.AUTO_REUSE)
+    File "/opt/conda/lib/python3.7/site-packages/gpt_2_simple/src/model.py", line 193, in model
+      h = tf.gather(wte, X) + tf.gather(wpe, positions_for(X, past_length))
+Node: 'model_10/Gather_1'
+indices[0,1110] = 1110 is not in [0, 1024)
+	 [[{{node model_10/Gather_1}}]]
+
+Original stack trace for 'model_10/Gather_1':
+  File "/opt/conda/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/opt/conda/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/opt/conda/lib/python3.7/site-packages/traitlets/config/application.py", line 846, in launch_instance
+    app.start()
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 677, in start
+    self.io_loop.start()
+  File "/opt/conda/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 541, in run_forever
+    self._run_once()
+  File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 1786, in _run_once
+    handle._run()
+  File "/opt/conda/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 471, in dispatch_queue
+    await self.process_one()
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 460, in process_one
+    await dispatch(*args)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 367, in dispatch_shell
+    await result
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 662, in execute_request
+    reply_content = await reply_content
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 360, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 532, in run_cell
+    return super().run_cell(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2958, in run_cell
+    raw_cell, store_history, silent, shell_futures)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3003, in _run_cell
+    return runner(coro)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 78, in _pseudo_sync_runner
+    coro.send(None)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3229, in run_cell_async
+    interactivity=interactivity, compiler=compiler, result=result)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3444, in run_ast_nodes
+    if (await self.run_code(code, result,  async_=asy)):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3524, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "/tmp/ipykernel_4095/462499367.py", line 53, in <module>
+    continuation=continuation)
+  File "/tmp/ipykernel_4095/3665137486.py", line 124, in get_perplexity
+    logits = get_logits(sess, run_name, checkpoint_dir, model_name, model_dir, full_sentence, all=True)
+  File "/tmp/ipykernel_4095/3665137486.py", line 58, in get_logits
+    output = step(hparams, context)
+  File "/tmp/ipykernel_4095/3665137486.py", line 47, in step
+    past=past, reuse=tf.compat.v1.AUTO_REUSE)
+  File "/opt/conda/lib/python3.7/site-packages/gpt_2_simple/src/model.py", line 193, in model
+    h = tf.gather(wte, X) + tf.gather(wpe, positions_for(X, past_length))
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 1082, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 5244, in gather_v2
+    batch_dims=batch_dims)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 1082, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/deprecation.py", line 548, in new_func
+    return func(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 5225, in gather
+    return params.sparse_read(indices, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py", line 759, in sparse_read
+    self.handle, indices, dtype=self._dtype, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/gen_resource_variable_ops.py", line 578, in resource_gather
+    validate_indices=validate_indices, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py", line 742, in _apply_op_helper
+    attrs=attr_protos, op_def=op_def)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 3784, in _create_op_internal
+    op_def=op_def)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 2175, in __init__
+    self._traceback = tf_stack.extract_stack_for_node(self._c_op)
+
+Current perplexity = 3.228667706963684
+Loading checkpoint checkpoint/disco_polo_gen_gpt2_validation/model-400
+Loading dataset...
+dataset has 3092002 tokens
+Training...
+Saving checkpoint/disco_polo_gen_gpt2_validation/model-400
+======== SAMPLE 1 ========
+<Ijedziemy przezść, 
+wciągle jest, się znimy chcę.
+ 
+Już już już już już
+<EOST>
+
+Wszyscy dziwnych rąkości udnego mnie
+Zaśpiewam znów uczu brak, 
+zakocham słowa w koło czas, 
+zwyczego pękny dziś kocham Cię
+<EOST>
+
+łz tobą przez tym, łz tym
+I wiem, łez Ty, łz znasym dzwi
+<EOST>
+
+łz tobą przez tym, łez Ty, łz znasym dzwi
+<EOST>
+
+Czeciek z Tobą powodzę, tym tak
+Przez odnę kochani pusty czas<EOST>ę<|endoftext|>
+<|startoftext|>1.
+Powiedz mi wolno zbieram
+Wyciąga dość tak jedną jeszcze nie dnia
+Jak powiedz śpiewam przychowała
+Nie długie przebałem coś zbieram
+Żwiatłem w niej złąciesz cierpioskł
+
+Powiedz miły wolno zbieram
+Wyciąga dość tak jedną jeszcze nie
+Jak powiedz śpiewam przychowała
+Zaśpiewam przychowała
+Zaśpiewam w niej złąciesz cierpioskł
+
+Wiesz, nogi śpiewam
+Wyzią się śpiewam, kochawić się zabieram. 
+<EOST><|endoftext|>
+<|startoftext|>Ja wystarczysz któryć si dusza
+Znowu dnia
+CZemkąc mi ziemą
+śpiewem Cię się
+Wtedy razem gdzieś
+Widzę powiedziałaś
+Znów przez szczęściem oczy się.
+
+Lecz to wiesz
+Znów do zwiatr, żokajmy się
+Znów odnajdę tak już moc
+Powiedz się śpiewam
+
+Lecz to wiesz
+Znów dzisiaj wśról
+Zaśpiewał na dla ciała
+Że to z nocy
+W kolorowie
+
+Już życie wą
+
+Ja wystarczysz ktonychałaś w dzisiaj miła.
+Czeciek oczy się czy się
+Przecież śpiewadziemy
+Że mi nie kolorowie cię zatrzymać Ci.
+
+Lecz to wiesz
+Znów powiedziałaś wystarczysz
+Znób przez szczęściem oczy się.
+
+Lecz to wiesz
+Dzisiaj wą
+Znów przez szczęściem oczy się.
+Gdy jak się był śnią czas
+
+Już życień wą
+
+Już życień wą
+Już życień wą
+Już życień wą
+Już ży
+
+[410 | 198.38] loss=1.72 avg=1.72
+[420 | 296.80] loss=1.42 avg=1.57
+[430 | 396.87] loss=2.76 avg=1.97
+[440 | 496.85] loss=1.46 avg=1.84
+[450 | 595.44] loss=2.73 avg=2.02
+[460 | 695.15] loss=1.93 avg=2.01
+[470 | 795.26] loss=1.66 avg=1.96
+[480 | 893.85] loss=2.16 avg=1.98
+[490 | 992.73] loss=1.21 avg=1.89
+[500 | 1090.35] loss=2.30 avg=1.94
+Saving checkpoint/disco_polo_gen_gpt2_validation/model-500
+[510 | 1190.91] loss=1.06 avg=1.85
+[520 | 1289.53] loss=1.56 avg=1.83
+[530 | 1386.91] loss=1.47 avg=1.80
+[540 | 1485.25] loss=2.32 avg=1.84
+[550 | 1583.89] loss=1.58 avg=1.82
+[560 | 1680.96] loss=3.46 avg=1.93
+[570 | 1779.56] loss=1.62 avg=1.91
+[580 | 1877.95] loss=1.60 avg=1.89
+[590 | 1975.03] loss=1.71 avg=1.88
+[600 | 2073.40] loss=0.97 avg=1.83
+Saving checkpoint/disco_polo_gen_gpt2_validation/model-600
+Calculating perplexity...
+index 0 is out of bounds for axis 0 with size 0
+Current perplexity = 2.0183275917348866
+Loading checkpoint checkpoint/disco_polo_gen_gpt2_validation/model-600
+Loading dataset...
+dataset has 3092002 tokens
+Training...
+Saving checkpoint/disco_polo_gen_gpt2_validation/model-600
+======== SAMPLE 1 ========
+>Jak jak wyrał, krótko nie zwykłych czas (4 x<CIL>x<REND><REND><REND><REND><REND><REND><REND><REND>x<EOST>
+<|endoftext|>
+<|startoftext|>Choć ciągle piękna, króczą szczęśliem się,
+Choć tej, że zrota na Ciebie, że było wiem coś mieć,
+Że to mi daje, niech byłem do głowie, że nie zwątniejsza mój czy to jest ciągle rzutąd,
+Pamiętaj mięcał, to zawolę, jak pokażałem!
+
+Pamiętaj mięcał ją zwala, w szczęście krok 
+Nie chcesz będzy Cię szansę, ode nie jestem, bo jestem! / <EOST>
+
+Zakacze mam, zakacze mam, zakacze mam!
+Szoda, zakoda, zakoda, zakoda, zakoda, zakoda, zakoda, zakoda, zakoda, zakoda, zakoda!
+
+Ja zakoduje świat, ja
+Ja zakoduje świat, ja
+
+Ty zostawiałym czas
+Tecz, tczątkaj przyjały chodzi
+Ktoś czas włusimy, uwierzmy się
+Kiedy tę kochaj to, wybiło tych uśmiech, że uwierzmy i kobietnę! x2<EOST>
+
+Dzisiaj pamiętaj się, bo mój tego głupi dzień,
+Pamiętaj mięcał ją zwala, wszęściem!
+Ja zakoduje świat, ja
+Ja zakoduje świat, ja
+
+Choć ciągle piękna, korzyczę tego pokazałość,
+Choć tej, że zrota na Ciebie, że było wiem coś mieć,
+Że które wiedziałość w każdy za i ja, ja / <EOST>x<|endoftext|>
+<|startoftext|>Czas w nie chce
+To to dziewczyna na nawet razem się
+Wielkanie makro zły
+Wiesz młął że dasz
+Częś mój, o tym młoda młoda
+
+<RBEG>Ref:
+Dziś węta miłość
+Wiem sobie jak wie
+Cudowny młódź się
+Że młoda w jeszcze serca
+Jest nie zły
+Pamiętaj się
+Nie złynie
+Tylko to już
+Przyjaźniejsza kłamstwa szca
+Przyjaźniejsza kłamstwa szca
+
+Zakoduje światł tego pokazałość
+Zakoduje światł tego pokazałość
+
+<RBEG>Ref:
+Dziś węta miłość
+Wiem sobie jak wie
+Cudowny młódź się
+Że młoda w jeszcze serca
+Jest nie zły
+Pamiętaj się
+Nie złyn
+
+[610 | 191.07] loss=2.13 avg=2.13
+[620 | 289.65] loss=1.93 avg=2.03
+[630 | 388.08] loss=1.66 avg=1.90
+[640 | 485.16] loss=2.09 avg=1.95
+[650 | 583.62] loss=1.77 avg=1.91
+[660 | 682.34] loss=1.87 avg=1.90
+[670 | 779.48] loss=1.49 avg=1.84
+[680 | 878.19] loss=1.75 avg=1.83
+[690 | 976.82] loss=1.54 avg=1.80
+[700 | 1074.40] loss=1.47 avg=1.76
+[710 | 1173.21] loss=1.60 avg=1.75
+[720 | 1270.87] loss=1.90 avg=1.76
+[730 | 1369.92] loss=1.95 avg=1.78
+[740 | 1468.79] loss=2.44 avg=1.83
+[750 | 1566.60] loss=1.37 avg=1.79
+[760 | 1665.58] loss=2.12 avg=1.82
+[770 | 1764.05] loss=1.31 avg=1.78
+[780 | 1861.48] loss=1.07 avg=1.74
+[790 | 1960.87] loss=1.47 avg=1.73
+[800 | 2059.52] loss=1.25 avg=1.70
+Saving checkpoint/disco_polo_gen_gpt2_validation/model-800
+Calculating perplexity...
+Current perplexity = 2.1802905069901737
+Loading checkpoint checkpoint/disco_polo_gen_gpt2_validation/model-800
+Loading dataset...
+dataset has 3092002 tokens
+Training...
+Saving checkpoint/disco_polo_gen_gpt2_validation/model-800
+======== SAMPLE 1 ========
+ewść tęsknota, niezwiec przyjdzy. <REND>
+<EOST>
+I biegni, zostaw mnie, jak w krótko tęskno.
+Mamiłaś wciąż, to mam fotowi mnie
+Zobaczyć do serca mi śnie....<EOST>.<|endoftext|>
+<|startoftext|>Wiem, to by czuła dusz
+Był to łzące
+Zatrzyć, niech dłużać kochać
+Wiem, to była dusz
+Był to łzące
+Mam przyjdź wytrzymam,
+Że dłużej, znaczyć jest
+<EOST>
+
+Tak jak ogień,
+byś mokroni,
+O niej w oczyć
+Nie ślad, nie odmieni
+Co dzień, co, co ciągle jest
+Dotykać, dotykać, dotykać w nocy<EOST>w<|endoftext|>
+<|startoftext|>1.Zakocha Ciebie byłaś Cię i Ciągle cienie 
+Dokiego się udzieść Cię,
+I pojawiść i tak dzwoniło mnie,
+Jak nim ładna
+Już była tak
+<EOST>
+Tak dzwoniło może i czy będzie czuś 
+Bo Tobie byż to się wytrzymam,
+Przymam na będzie dzień
+Tak przynież wciąż będzie
+łzyć i zachaję chcę w nocy<EOST>
+<RBEG>Ref:Zawród z namiści
+Zabra dziś
+Za zbieram dusz        zabra i zakocha się wie
+Zawród z namiści
+Zabra dziś
+Zatań Cię i za<REND><REND>
+<EOST>
+Ta u dziewczą Ci wypaz wciąż zaczę
+Znów do rana zapalam
+Więc nie pragnieniem, czemu jest
+I własny nadchodzi 
+Znów, niech a życzyć
+<EOST>
+<RBEG>Ref. Zawród z namiści
+Zabra dziś
+Za z bieram dusz             zabra i zakocha się wie
+Zawród z namiści
+Zabra dziś
+Za z bieram dusz
+Za z balaz                 
+Zabra dziś
+Zabra dziś
+Za zbieram dusz               dzwoniło mnie
+Zawród z namiści
+Zabra dziś                     wie
+Zabra dziś
+Za zbieram dusz              zakocha się wie
+Zabra dziś                  zaszale i znów
+Zabra dziś
+Ześć i zachść
+Zapalam<EOST>e<|endoftext|>
+<|startoftext|>1. Zawsze w
+
+[810 | 193.84] loss=1.51 avg=1.51
+[820 | 292.51] loss=2.24 avg=1.87
+[830 | 389.96] loss=1.88 avg=1.88
+[840 | 488.65] loss=2.39 avg=2.01
+[850 | 587.29] loss=1.43 avg=1.89
+[860 | 685.36] loss=1.63 avg=1.84
+[870 | 783.93] loss=2.01 avg=1.87
+[880 | 881.14] loss=2.35 avg=1.93
+[890 | 979.75] loss=1.67 avg=1.90
+[900 | 1078.22] loss=2.12 avg=1.92
+[910 | 1175.57] loss=1.37 avg=1.87
+[920 | 1274.44] loss=2.44 avg=1.92
+[930 | 1372.98] loss=1.61 avg=1.90
+[940 | 1470.24] loss=1.31 avg=1.85
+[950 | 1568.91] loss=1.62 avg=1.83
+[960 | 1667.62] loss=1.51 avg=1.81
+[970 | 1764.90] loss=1.88 avg=1.82
+[980 | 1864.01] loss=1.48 avg=1.80
+[990 | 1961.45] loss=1.58 avg=1.78
+[1000 | 2060.20] loss=1.80 avg=1.78
+Saving checkpoint/disco_polo_gen_gpt2_validation/model-1000
+Calculating perplexity...
+Graph execution error:
+
+Detected at node 'model_7/Gather_1' defined at (most recent call last):
+    File "/opt/conda/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+      "__main__", mod_spec)
+    File "/opt/conda/lib/python3.7/runpy.py", line 85, in _run_code
+      exec(code, run_globals)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py", line 16, in <module>
+      app.launch_new_instance()
+    File "/opt/conda/lib/python3.7/site-packages/traitlets/config/application.py", line 846, in launch_instance
+      app.start()
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 677, in start
+      self.io_loop.start()
+    File "/opt/conda/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 199, in start
+      self.asyncio_loop.run_forever()
+    File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 541, in run_forever
+      self._run_once()
+    File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 1786, in _run_once
+      handle._run()
+    File "/opt/conda/lib/python3.7/asyncio/events.py", line 88, in _run
+      self._context.run(self._callback, *self._args)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 471, in dispatch_queue
+      await self.process_one()
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 460, in process_one
+      await dispatch(*args)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 367, in dispatch_shell
+      await result
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 662, in execute_request
+      reply_content = await reply_content
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 360, in do_execute
+      res = shell.run_cell(code, store_history=store_history, silent=silent)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 532, in run_cell
+      return super().run_cell(*args, **kwargs)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2958, in run_cell
+      raw_cell, store_history, silent, shell_futures)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3003, in _run_cell
+      return runner(coro)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 78, in _pseudo_sync_runner
+      coro.send(None)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3229, in run_cell_async
+      interactivity=interactivity, compiler=compiler, result=result)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3444, in run_ast_nodes
+      if (await self.run_code(code, result,  async_=asy)):
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3524, in run_code
+      exec(code_obj, self.user_global_ns, self.user_ns)
+    File "/tmp/ipykernel_4095/462499367.py", line 53, in <module>
+      continuation=continuation)
+    File "/tmp/ipykernel_4095/3665137486.py", line 124, in get_perplexity
+      logits = get_logits(sess, run_name, checkpoint_dir, model_name, model_dir, full_sentence, all=True)
+    File "/tmp/ipykernel_4095/3665137486.py", line 58, in get_logits
+      output = step(hparams, context)
+    File "/tmp/ipykernel_4095/3665137486.py", line 47, in step
+      past=past, reuse=tf.compat.v1.AUTO_REUSE)
+    File "/opt/conda/lib/python3.7/site-packages/gpt_2_simple/src/model.py", line 193, in model
+      h = tf.gather(wte, X) + tf.gather(wpe, positions_for(X, past_length))
+Node: 'model_7/Gather_1'
+indices[0,1665] = 1665 is not in [0, 1024)
+	 [[{{node model_7/Gather_1}}]]
+
+Original stack trace for 'model_7/Gather_1':
+  File "/opt/conda/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/opt/conda/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/opt/conda/lib/python3.7/site-packages/traitlets/config/application.py", line 846, in launch_instance
+    app.start()
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 677, in start
+    self.io_loop.start()
+  File "/opt/conda/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 541, in run_forever
+    self._run_once()
+  File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 1786, in _run_once
+    handle._run()
+  File "/opt/conda/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 471, in dispatch_queue
+    await self.process_one()
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 460, in process_one
+    await dispatch(*args)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 367, in dispatch_shell
+    await result
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 662, in execute_request
+    reply_content = await reply_content
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 360, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 532, in run_cell
+    return super().run_cell(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2958, in run_cell
+    raw_cell, store_history, silent, shell_futures)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3003, in _run_cell
+    return runner(coro)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 78, in _pseudo_sync_runner
+    coro.send(None)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3229, in run_cell_async
+    interactivity=interactivity, compiler=compiler, result=result)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3444, in run_ast_nodes
+    if (await self.run_code(code, result,  async_=asy)):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3524, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "/tmp/ipykernel_4095/462499367.py", line 53, in <module>
+    continuation=continuation)
+  File "/tmp/ipykernel_4095/3665137486.py", line 124, in get_perplexity
+    logits = get_logits(sess, run_name, checkpoint_dir, model_name, model_dir, full_sentence, all=True)
+  File "/tmp/ipykernel_4095/3665137486.py", line 58, in get_logits
+    output = step(hparams, context)
+  File "/tmp/ipykernel_4095/3665137486.py", line 47, in step
+    past=past, reuse=tf.compat.v1.AUTO_REUSE)
+  File "/opt/conda/lib/python3.7/site-packages/gpt_2_simple/src/model.py", line 193, in model
+    h = tf.gather(wte, X) + tf.gather(wpe, positions_for(X, past_length))
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 1082, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 5244, in gather_v2
+    batch_dims=batch_dims)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 1082, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/deprecation.py", line 548, in new_func
+    return func(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 5225, in gather
+    return params.sparse_read(indices, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py", line 759, in sparse_read
+    self.handle, indices, dtype=self._dtype, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/gen_resource_variable_ops.py", line 578, in resource_gather
+    validate_indices=validate_indices, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py", line 742, in _apply_op_helper
+    attrs=attr_protos, op_def=op_def)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 3784, in _create_op_internal
+    op_def=op_def)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 2175, in __init__
+    self._traceback = tf_stack.extract_stack_for_node(self._c_op)
+
+Graph execution error:
+
+Detected at node 'model_79/Gather_1' defined at (most recent call last):
+    File "/opt/conda/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+      "__main__", mod_spec)
+    File "/opt/conda/lib/python3.7/runpy.py", line 85, in _run_code
+      exec(code, run_globals)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py", line 16, in <module>
+      app.launch_new_instance()
+    File "/opt/conda/lib/python3.7/site-packages/traitlets/config/application.py", line 846, in launch_instance
+      app.start()
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 677, in start
+      self.io_loop.start()
+    File "/opt/conda/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 199, in start
+      self.asyncio_loop.run_forever()
+    File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 541, in run_forever
+      self._run_once()
+    File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 1786, in _run_once
+      handle._run()
+    File "/opt/conda/lib/python3.7/asyncio/events.py", line 88, in _run
+      self._context.run(self._callback, *self._args)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 471, in dispatch_queue
+      await self.process_one()
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 460, in process_one
+      await dispatch(*args)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 367, in dispatch_shell
+      await result
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 662, in execute_request
+      reply_content = await reply_content
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 360, in do_execute
+      res = shell.run_cell(code, store_history=store_history, silent=silent)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 532, in run_cell
+      return super().run_cell(*args, **kwargs)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2958, in run_cell
+      raw_cell, store_history, silent, shell_futures)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3003, in _run_cell
+      return runner(coro)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 78, in _pseudo_sync_runner
+      coro.send(None)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3229, in run_cell_async
+      interactivity=interactivity, compiler=compiler, result=result)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3444, in run_ast_nodes
+      if (await self.run_code(code, result,  async_=asy)):
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3524, in run_code
+      exec(code_obj, self.user_global_ns, self.user_ns)
+    File "/tmp/ipykernel_4095/462499367.py", line 53, in <module>
+      continuation=continuation)
+    File "/tmp/ipykernel_4095/3665137486.py", line 124, in get_perplexity
+      logits = get_logits(sess, run_name, checkpoint_dir, model_name, model_dir, full_sentence, all=True)
+    File "/tmp/ipykernel_4095/3665137486.py", line 58, in get_logits
+      output = step(hparams, context)
+    File "/tmp/ipykernel_4095/3665137486.py", line 47, in step
+      past=past, reuse=tf.compat.v1.AUTO_REUSE)
+    File "/opt/conda/lib/python3.7/site-packages/gpt_2_simple/src/model.py", line 193, in model
+      h = tf.gather(wte, X) + tf.gather(wpe, positions_for(X, past_length))
+Node: 'model_79/Gather_1'
+indices[0,1024] = 1024 is not in [0, 1024)
+	 [[{{node model_79/Gather_1}}]]
+
+Original stack trace for 'model_79/Gather_1':
+  File "/opt/conda/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/opt/conda/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/opt/conda/lib/python3.7/site-packages/traitlets/config/application.py", line 846, in launch_instance
+    app.start()
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 677, in start
+    self.io_loop.start()
+  File "/opt/conda/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 541, in run_forever
+    self._run_once()
+  File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 1786, in _run_once
+    handle._run()
+  File "/opt/conda/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 471, in dispatch_queue
+    await self.process_one()
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 460, in process_one
+    await dispatch(*args)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 367, in dispatch_shell
+    await result
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 662, in execute_request
+    reply_content = await reply_content
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 360, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 532, in run_cell
+    return super().run_cell(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2958, in run_cell
+    raw_cell, store_history, silent, shell_futures)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3003, in _run_cell
+    return runner(coro)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 78, in _pseudo_sync_runner
+    coro.send(None)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3229, in run_cell_async
+    interactivity=interactivity, compiler=compiler, result=result)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3444, in run_ast_nodes
+    if (await self.run_code(code, result,  async_=asy)):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3524, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "/tmp/ipykernel_4095/462499367.py", line 53, in <module>
+    continuation=continuation)
+  File "/tmp/ipykernel_4095/3665137486.py", line 124, in get_perplexity
+    logits = get_logits(sess, run_name, checkpoint_dir, model_name, model_dir, full_sentence, all=True)
+  File "/tmp/ipykernel_4095/3665137486.py", line 58, in get_logits
+    output = step(hparams, context)
+  File "/tmp/ipykernel_4095/3665137486.py", line 47, in step
+    past=past, reuse=tf.compat.v1.AUTO_REUSE)
+  File "/opt/conda/lib/python3.7/site-packages/gpt_2_simple/src/model.py", line 193, in model
+    h = tf.gather(wte, X) + tf.gather(wpe, positions_for(X, past_length))
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 1082, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 5244, in gather_v2
+    batch_dims=batch_dims)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 1082, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/deprecation.py", line 548, in new_func
+    return func(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 5225, in gather
+    return params.sparse_read(indices, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py", line 759, in sparse_read
+    self.handle, indices, dtype=self._dtype, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/gen_resource_variable_ops.py", line 578, in resource_gather
+    validate_indices=validate_indices, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py", line 742, in _apply_op_helper
+    attrs=attr_protos, op_def=op_def)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 3784, in _create_op_internal
+    op_def=op_def)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 2175, in __init__
+    self._traceback = tf_stack.extract_stack_for_node(self._c_op)
+
+Current perplexity = 1.8289528935952801
+Loading checkpoint checkpoint/disco_polo_gen_gpt2_validation/model-1000
+Loading dataset...
+dataset has 3092002 tokens
+Training...
+Saving checkpoint/disco_polo_gen_gpt2_validation/model-1000
+Saving checkpoint/disco_polo_gen_gpt2_validation/model-1000
+======== SAMPLE 1 ========
+ ten
+           A                x5 
+                      x2 
+                                                      x2 
+                       x2 
+                               
+                                             x2 
+                         x2 
+                                 x<EOST>2<|endoftext|>
+<|startoftext|>1. To bym mam, to bym mam do grzesztniejesz się, 
+Gdzieś obok mnie wtedy, a serce me mam wciąż, razem myślądą w świat, 
+Jak pięknych snów też nie ma, dzięki gdzieś do mnie jest. 
+
+<RBEG>Ref:
+Są nocno, są nocno się prawda, 
+Co w niej czar, co będziesz się, 
+Gdzie mi zdrowie do mnie oczy niech wysoki niech strana, 
+Są nocno, są nocno się, poblewaj się w krótulał Ci, 
+Niech ciało w myślę mam będziemy dzi 
+
+2. 
+W kartkal, w nim, w nim do mnie kłamstwo Cię, 
+Wtedy obcieć chłopczę złych, a serce me pobliżo do mnie chwile śnie<REND><REND>ń<EOST>.<|endoftext|>
+<|startoftext|>Jak mam dziur zwykleć najpiękniejsza, 
+wciąż czekałem nad dług, ciężko nic,
+więc czekałem płacać słowa, kurwamy bardzo,
+tak nie mów to była głos, tak powieszczasz mi sie. 
+<EOST>
+Jak świat, jej nie wiem, gdzie tak, 
+współniłem mówię płakącza nas, pól śniłem słowa się. 
+Jak świat, nie wiem, gdzie tak, 
+współniłem mówię płakącza nas, pajdź mi siógny śniem tak. 
+<EOST>
+1. To bym mam tak, są noc, łzuliłaś mnie, 
+a zatrzymać się będzie w sercu długimy, 
+być w sercu zobaczyć się przypomnisz mnie. 
+<EOST>
+Jak nad mnie tak nie bierz, słowa tak, 
+wystarczyć w sercu śnię wiatr, współmam Cię, przeczuć Ci�
+
+[1010 | 198.92] loss=1.92 avg=1.92
+[1020 | 298.03] loss=1.48 avg=1.70
+[1030 | 395.67] loss=1.71 avg=1.70
+[1040 | 495.37] loss=1.75 avg=1.72
+[1050 | 595.85] loss=2.27 avg=1.83
+[1060 | 695.03] loss=1.64 avg=1.80
+[1070 | 795.38] loss=1.73 avg=1.79
+[1080 | 895.95] loss=1.02 avg=1.69
+[1090 | 995.24] loss=1.50 avg=1.67
+[1100 | 1094.86] loss=1.56 avg=1.66
+[1110 | 1193.80] loss=1.38 avg=1.63
+[1120 | 1291.35] loss=1.82 avg=1.65
+[1130 | 1390.22] loss=1.24 avg=1.61
+[1140 | 1489.06] loss=1.58 avg=1.61
+[1150 | 1586.69] loss=1.85 avg=1.63
+[1160 | 1685.74] loss=1.84 avg=1.64
+[1170 | 1783.61] loss=1.02 avg=1.60
+[1180 | 1882.12] loss=1.46 avg=1.59
+[1190 | 1980.83] loss=1.65 avg=1.60
+[1200 | 2078.28] loss=1.69 avg=1.60
+Saving checkpoint/disco_polo_gen_gpt2_validation/model-1200
+Calculating perplexity...
+Graph execution error:
+
+Detected at node 'model_21/Gather_1' defined at (most recent call last):
+    File "/opt/conda/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+      "__main__", mod_spec)
+    File "/opt/conda/lib/python3.7/runpy.py", line 85, in _run_code
+      exec(code, run_globals)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py", line 16, in <module>
+      app.launch_new_instance()
+    File "/opt/conda/lib/python3.7/site-packages/traitlets/config/application.py", line 846, in launch_instance
+      app.start()
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 677, in start
+      self.io_loop.start()
+    File "/opt/conda/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 199, in start
+      self.asyncio_loop.run_forever()
+    File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 541, in run_forever
+      self._run_once()
+    File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 1786, in _run_once
+      handle._run()
+    File "/opt/conda/lib/python3.7/asyncio/events.py", line 88, in _run
+      self._context.run(self._callback, *self._args)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 471, in dispatch_queue
+      await self.process_one()
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 460, in process_one
+      await dispatch(*args)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 367, in dispatch_shell
+      await result
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 662, in execute_request
+      reply_content = await reply_content
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 360, in do_execute
+      res = shell.run_cell(code, store_history=store_history, silent=silent)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 532, in run_cell
+      return super().run_cell(*args, **kwargs)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2958, in run_cell
+      raw_cell, store_history, silent, shell_futures)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3003, in _run_cell
+      return runner(coro)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 78, in _pseudo_sync_runner
+      coro.send(None)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3229, in run_cell_async
+      interactivity=interactivity, compiler=compiler, result=result)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3444, in run_ast_nodes
+      if (await self.run_code(code, result,  async_=asy)):
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3524, in run_code
+      exec(code_obj, self.user_global_ns, self.user_ns)
+    File "/tmp/ipykernel_4095/462499367.py", line 53, in <module>
+      continuation=continuation)
+    File "/tmp/ipykernel_4095/3665137486.py", line 124, in get_perplexity
+      logits = get_logits(sess, run_name, checkpoint_dir, model_name, model_dir, full_sentence, all=True)
+    File "/tmp/ipykernel_4095/3665137486.py", line 58, in get_logits
+      output = step(hparams, context)
+    File "/tmp/ipykernel_4095/3665137486.py", line 47, in step
+      past=past, reuse=tf.compat.v1.AUTO_REUSE)
+    File "/opt/conda/lib/python3.7/site-packages/gpt_2_simple/src/model.py", line 193, in model
+      h = tf.gather(wte, X) + tf.gather(wpe, positions_for(X, past_length))
+Node: 'model_21/Gather_1'
+indices[0,1024] = 1024 is not in [0, 1024)
+	 [[{{node model_21/Gather_1}}]]
+
+Original stack trace for 'model_21/Gather_1':
+  File "/opt/conda/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/opt/conda/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/opt/conda/lib/python3.7/site-packages/traitlets/config/application.py", line 846, in launch_instance
+    app.start()
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 677, in start
+    self.io_loop.start()
+  File "/opt/conda/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 541, in run_forever
+    self._run_once()
+  File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 1786, in _run_once
+    handle._run()
+  File "/opt/conda/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 471, in dispatch_queue
+    await self.process_one()
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 460, in process_one
+    await dispatch(*args)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 367, in dispatch_shell
+    await result
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 662, in execute_request
+    reply_content = await reply_content
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 360, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 532, in run_cell
+    return super().run_cell(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2958, in run_cell
+    raw_cell, store_history, silent, shell_futures)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3003, in _run_cell
+    return runner(coro)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 78, in _pseudo_sync_runner
+    coro.send(None)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3229, in run_cell_async
+    interactivity=interactivity, compiler=compiler, result=result)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3444, in run_ast_nodes
+    if (await self.run_code(code, result,  async_=asy)):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3524, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "/tmp/ipykernel_4095/462499367.py", line 53, in <module>
+    continuation=continuation)
+  File "/tmp/ipykernel_4095/3665137486.py", line 124, in get_perplexity
+    logits = get_logits(sess, run_name, checkpoint_dir, model_name, model_dir, full_sentence, all=True)
+  File "/tmp/ipykernel_4095/3665137486.py", line 58, in get_logits
+    output = step(hparams, context)
+  File "/tmp/ipykernel_4095/3665137486.py", line 47, in step
+    past=past, reuse=tf.compat.v1.AUTO_REUSE)
+  File "/opt/conda/lib/python3.7/site-packages/gpt_2_simple/src/model.py", line 193, in model
+    h = tf.gather(wte, X) + tf.gather(wpe, positions_for(X, past_length))
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 1082, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 5244, in gather_v2
+    batch_dims=batch_dims)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 1082, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/deprecation.py", line 548, in new_func
+    return func(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 5225, in gather
+    return params.sparse_read(indices, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py", line 759, in sparse_read
+    self.handle, indices, dtype=self._dtype, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/gen_resource_variable_ops.py", line 578, in resource_gather
+    validate_indices=validate_indices, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py", line 742, in _apply_op_helper
+    attrs=attr_protos, op_def=op_def)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 3784, in _create_op_internal
+    op_def=op_def)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 2175, in __init__
+    self._traceback = tf_stack.extract_stack_for_node(self._c_op)
+
+Current perplexity = 2.142161044095166
+Loading checkpoint checkpoint/disco_polo_gen_gpt2_validation/model-1200
+Loading dataset...
+dataset has 3092002 tokens
+Training...
+Saving checkpoint/disco_polo_gen_gpt2_validation/model-1200
+======== SAMPLE 1 ========
+:zapomnieć Cię
+
+<RBEG>Ref.:
+Bo wzwolami gonić, że Cię niebo już
+Czeka Ciebie mam wszystkie róż
+I której usta będzie tą się o jedno
+Gdy na pokażam nam wszystkie coś
+Gdzie ja gdzie ja takie poczują się
+Łooo oooo oooo
+Dlaczego taki jak niedźl
+To był czasu ciwo z nami
+Nie chcesz zagadwo na co dzień
+Dłucia nie będzie mocą
+Nie byś już tylko mnie
+Uśmiech lat
+
+Zapomnieć Cię
+
+<RBEG>Ref.:
+Bo wzwolami gonić, że Cię niebo już
+Czeka Ciebie mam wszystkie róż
+I której usta będzie tą się o jedno
+Gdy na pokażam nam wszystkie coś
+Gdzie ja gdzie ja takie poczują się
+Łooo oooo oooo
+Dlaczego taki jak niedźl
+To był czasu ciwo z nami
+Nie chcesz zagadwo na co dzień
+Dłucia nie będzie mocą
+Nie byś już tylko mnie
+Uśmiech lat
+
+Zapomnieć Cię
+
+<RBEG>Ref.:
+Bo wzwolami gonić, że Cię niebo już
+Czeka Ciebie mam wszystkie róż
+I której usta będzie tą się o jedno
+Gdy na pokażam nam wszystkie coś
+Gdzie ja gdzie ja takie poczują się
+Łooo oooo oooo oooo
+Dlaczego taki jak niedźl
+To był czasu ciwo z nami
+Nie chcesz zagadwo na co dzie<REND><REND>ł<EOST><|endoftext|>
+<|startoftext|>Niby, gdy wielki płynieszki i weszłania żal
+Niby, jeden sie ma weszcze chcesz
+Niby wielki jesteś zmieniem by z kabiory
+Przepowiednie tajemnąc mnie
+Lecz ja w świat och tatę pić
+Śpiewam się
+<EOST>
+<RBEG>Ref.:
+Niby zbijam Cię
+I głodkę Ci w szkoda
+Na całku mówi nikt ja mam ciebie mi wybijam
+Przobudą móc dłoń we śnie się blask
+Niby tajemnąc mnie
+Będze zamkną swoje serce
+I będę nawiedzi zazdrojnie gwiazd
+Przez życą nie widział Cię
+Gdzieś nie chcesz może nie zostanie 
+Wolny, tak bardziej niech gwiazd moc
+Zostawię może serce
+Pierw o niech mą dziś czułaś
+Migia żadna o miejscu dalej 
+Że chcesz w końcu ścianą niech dziś
+Tak bardziej na to ukryć
+Niby nie wracaj
+
+
+[1210 | 194.28] loss=1.57 avg=1.57
+[1220 | 292.99] loss=2.07 avg=1.83
+[1230 | 390.37] loss=1.29 avg=1.65
+[1240 | 489.04] loss=1.93 avg=1.72
+[1250 | 587.61] loss=2.00 avg=1.78
+[1260 | 684.90] loss=1.90 avg=1.80
+[1270 | 783.55] loss=1.29 avg=1.72
+[1280 | 881.92] loss=1.55 avg=1.70
+[1290 | 979.46] loss=1.91 avg=1.73
+[1300 | 1077.69] loss=1.92 avg=1.75
+[1310 | 1176.15] loss=1.72 avg=1.74
+[1320 | 1272.67] loss=2.17 avg=1.78
+[1330 | 1370.54] loss=1.76 avg=1.78
+[1340 | 1466.95] loss=1.53 avg=1.76
+[1350 | 1564.97] loss=1.98 avg=1.78
+[1360 | 1664.09] loss=1.69 avg=1.77
+[1370 | 1760.67] loss=2.35 avg=1.81
+[1380 | 1858.31] loss=1.84 avg=1.81
+[1390 | 1955.27] loss=1.56 avg=1.79
+[1400 | 2052.43] loss=1.64 avg=1.79
+Saving checkpoint/disco_polo_gen_gpt2_validation/model-1400
+Calculating perplexity...
+Graph execution error:
+
+Detected at node 'model_84/Gather_1' defined at (most recent call last):
+    File "/opt/conda/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+      "__main__", mod_spec)
+    File "/opt/conda/lib/python3.7/runpy.py", line 85, in _run_code
+      exec(code, run_globals)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py", line 16, in <module>
+      app.launch_new_instance()
+    File "/opt/conda/lib/python3.7/site-packages/traitlets/config/application.py", line 846, in launch_instance
+      app.start()
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 677, in start
+      self.io_loop.start()
+    File "/opt/conda/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 199, in start
+      self.asyncio_loop.run_forever()
+    File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 541, in run_forever
+      self._run_once()
+    File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 1786, in _run_once
+      handle._run()
+    File "/opt/conda/lib/python3.7/asyncio/events.py", line 88, in _run
+      self._context.run(self._callback, *self._args)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 471, in dispatch_queue
+      await self.process_one()
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 460, in process_one
+      await dispatch(*args)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 367, in dispatch_shell
+      await result
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 662, in execute_request
+      reply_content = await reply_content
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 360, in do_execute
+      res = shell.run_cell(code, store_history=store_history, silent=silent)
+    File "/opt/conda/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 532, in run_cell
+      return super().run_cell(*args, **kwargs)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2958, in run_cell
+      raw_cell, store_history, silent, shell_futures)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3003, in _run_cell
+      return runner(coro)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 78, in _pseudo_sync_runner
+      coro.send(None)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3229, in run_cell_async
+      interactivity=interactivity, compiler=compiler, result=result)
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3444, in run_ast_nodes
+      if (await self.run_code(code, result,  async_=asy)):
+    File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3524, in run_code
+      exec(code_obj, self.user_global_ns, self.user_ns)
+    File "/tmp/ipykernel_4095/462499367.py", line 53, in <module>
+      continuation=continuation)
+    File "/tmp/ipykernel_4095/3665137486.py", line 124, in get_perplexity
+      logits = get_logits(sess, run_name, checkpoint_dir, model_name, model_dir, full_sentence, all=True)
+    File "/tmp/ipykernel_4095/3665137486.py", line 58, in get_logits
+      output = step(hparams, context)
+    File "/tmp/ipykernel_4095/3665137486.py", line 47, in step
+      past=past, reuse=tf.compat.v1.AUTO_REUSE)
+    File "/opt/conda/lib/python3.7/site-packages/gpt_2_simple/src/model.py", line 193, in model
+      h = tf.gather(wte, X) + tf.gather(wpe, positions_for(X, past_length))
+Node: 'model_84/Gather_1'
+indices[0,1110] = 1110 is not in [0, 1024)
+	 [[{{node model_84/Gather_1}}]]
+
+Original stack trace for 'model_84/Gather_1':
+  File "/opt/conda/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/opt/conda/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/opt/conda/lib/python3.7/site-packages/traitlets/config/application.py", line 846, in launch_instance
+    app.start()
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelapp.py", line 677, in start
+    self.io_loop.start()
+  File "/opt/conda/lib/python3.7/site-packages/tornado/platform/asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 541, in run_forever
+    self._run_once()
+  File "/opt/conda/lib/python3.7/asyncio/base_events.py", line 1786, in _run_once
+    handle._run()
+  File "/opt/conda/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 471, in dispatch_queue
+    await self.process_one()
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 460, in process_one
+    await dispatch(*args)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 367, in dispatch_shell
+    await result
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/kernelbase.py", line 662, in execute_request
+    reply_content = await reply_content
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/ipkernel.py", line 360, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "/opt/conda/lib/python3.7/site-packages/ipykernel/zmqshell.py", line 532, in run_cell
+    return super().run_cell(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2958, in run_cell
+    raw_cell, store_history, silent, shell_futures)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3003, in _run_cell
+    return runner(coro)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/async_helpers.py", line 78, in _pseudo_sync_runner
+    coro.send(None)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3229, in run_cell_async
+    interactivity=interactivity, compiler=compiler, result=result)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3444, in run_ast_nodes
+    if (await self.run_code(code, result,  async_=asy)):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3524, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "/tmp/ipykernel_4095/462499367.py", line 53, in <module>
+    continuation=continuation)
+  File "/tmp/ipykernel_4095/3665137486.py", line 124, in get_perplexity
+    logits = get_logits(sess, run_name, checkpoint_dir, model_name, model_dir, full_sentence, all=True)
+  File "/tmp/ipykernel_4095/3665137486.py", line 58, in get_logits
+    output = step(hparams, context)
+  File "/tmp/ipykernel_4095/3665137486.py", line 47, in step
+    past=past, reuse=tf.compat.v1.AUTO_REUSE)
+  File "/opt/conda/lib/python3.7/site-packages/gpt_2_simple/src/model.py", line 193, in model
+    h = tf.gather(wte, X) + tf.gather(wpe, positions_for(X, past_length))
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 1082, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 5244, in gather_v2
+    batch_dims=batch_dims)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/dispatch.py", line 1082, in op_dispatch_handler
+    return dispatch_target(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/util/deprecation.py", line 548, in new_func
+    return func(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/array_ops.py", line 5225, in gather
+    return params.sparse_read(indices, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/resource_variable_ops.py", line 759, in sparse_read
+    self.handle, indices, dtype=self._dtype, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/ops/gen_resource_variable_ops.py", line 578, in resource_gather
+    validate_indices=validate_indices, name=name)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py", line 742, in _apply_op_helper
+    attrs=attr_protos, op_def=op_def)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 3784, in _create_op_internal
+    op_def=op_def)
+  File "/opt/conda/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 2175, in __init__
+    self._traceback = tf_stack.extract_stack_for_node(self._c_op)
+
+Current perplexity = 1.8194467085975148
+Training done.
+We did 1600 steps in total.
+Perplexity scores:
+[3.1020966092793647, 3.228667706963684, 2.0183275917348866, 2.1802905069901737, 1.8289528935952801, 2.142161044095166, 1.8194467085975148]
