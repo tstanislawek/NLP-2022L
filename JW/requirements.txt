@@ -1,0 +1,9 @@
+datasets==2.1.0
+-f https://download.pytorch.org/whl/cu113/torch-1.11.0%2Bcu113-cp38-cp38-linux_x86_64.whl
+torch==1.11.0+cu113
+transformers==4.19.2
+sklearn
+accelerate
+sentencepiece
+numpy
+pandas
